@@ -1,0 +1,129 @@
+$mobile-break: 768px;
+$desktop-break: 1224px;
+
+.officers {
+
+  h2 {
+    text-align: center;
+  }
+
+  .officer {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    .officer__img-container {
+      box-sizing: border-box;
+      padding: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .officer__body-container {
+      box-sizing: border-box;
+
+      .body {
+        padding: 20px;
+
+        .body__title {
+          font-size: 1.25em;
+          text-transform: uppercase;
+          margin: 0;
+        }
+
+        .body__sub-title {
+          margin-top: 10px;
+          margin-bottom: 25px;
+          color: #a8a8a8;
+          text-transform: uppercase;
+        }
+
+        > div {
+          p {
+            line-height: 24px;
+          }
+        }
+      }
+    }
+
+  }
+
+  @media screen and (max-width: $mobile-break) {
+    .officer {
+      margin-bottom: 10px;
+
+      .officer__img-container {
+        width: 100%
+      }
+
+      .officer__body-container {
+        width: 100%;
+      }
+    }
+  }
+
+  @media screen and (min-width: $mobile-break) {
+    padding: 0 100px;
+
+    .officer {
+      display: flex;
+      flex-direction: row;
+      vertical-align: top;
+
+      .officer__img-container {
+        width: 30%;
+        display: inline-block;
+
+        &--left {
+          order: 1;
+        }
+
+        &--right {
+          order: 2;
+        }
+      }
+
+      .officer__body-container {
+        width: 70%;
+        display: inline-block;
+        vertical-align: top;
+
+        &--left {
+          order: 2;
+        }
+
+        &--right {
+          order: 1;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $mobile-break) and (max-width: $desktop-break) {
+    .officer {
+      .officer__img-container {
+        width: 50%;
+      }
+      .officer__body-container {
+        width: 50%;
+      }
+    }
+  }
+
+  @media screen and (min-width: $desktop-break) {
+    .officer {
+      .officer__img-container {
+        width: 30%;
+      }
+
+      .officer__body-container {
+        width: 70%;
+      }
+    }
+  }
+}
