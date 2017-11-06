@@ -1,7 +1,9 @@
 $mobile-break: 768px;
-$desktop-break: 1224px;
 
 .officers {
+  p {
+    font-size: 0.9em;
+  }
 
   h2 {
     text-align: center;
@@ -27,12 +29,11 @@ $desktop-break: 1224px;
 
     .officer__body-container {
       box-sizing: border-box;
+      padding: 20px;
 
       .body {
-        padding: 20px;
-
         .body__title {
-          font-size: 1.25em;
+          font-size: 1.2em;
           text-transform: uppercase;
           margin: 0;
         }
@@ -44,7 +45,7 @@ $desktop-break: 1224px;
           text-transform: uppercase;
         }
 
-        > div {
+        .body__text {
           p {
             line-height: 24px;
           }
@@ -54,7 +55,7 @@ $desktop-break: 1224px;
 
   }
 
-  @media screen and (max-width: $mobile-break) {
+  @media screen and (max-width: 530px) {
     .officer {
       margin-bottom: 10px;
 
@@ -68,17 +69,13 @@ $desktop-break: 1224px;
     }
   }
 
-  @media screen and (min-width: $mobile-break) {
-    padding: 0 100px;
-
+  @media screen and (min-width: 530px) {
     .officer {
       display: flex;
       flex-direction: row;
-      vertical-align: top;
 
       .officer__img-container {
-        width: 30%;
-        display: inline-block;
+        width: 50%;
 
         &--left {
           order: 1;
@@ -90,9 +87,7 @@ $desktop-break: 1224px;
       }
 
       .officer__body-container {
-        width: 70%;
-        display: inline-block;
-        vertical-align: top;
+        width: 50%;
 
         &--left {
           order: 2;
@@ -104,25 +99,39 @@ $desktop-break: 1224px;
       }
     }
   }
-  @media screen and (min-width: $mobile-break) and (max-width: $desktop-break) {
+
+  @media screen and (min-width: 650px) {
     .officer {
       .officer__img-container {
-        width: 50%;
+        width: 40%
       }
+
       .officer__body-container {
-        width: 50%;
+        width: 60%;
       }
     }
   }
 
-  @media screen and (min-width: $desktop-break) {
+  @media screen and (min-width: 810px) {
     .officer {
       .officer__img-container {
-        width: 30%;
+        width: 30%
       }
 
       .officer__body-container {
         width: 70%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1060px) {
+    .officer {
+      .officer__img-container {
+        width: 25%
+      }
+
+      .officer__body-container {
+        width: 75%;
       }
     }
   }

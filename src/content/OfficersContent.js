@@ -10,7 +10,7 @@ const officersContent = [
     url: "https://sites.google.com/site/calprevetclub/_/rsrc/1508206544722/about-us/officers/19577220_10211886763237082_2565821348223382800_o.jpg?height=320&width=256",
     bio: (
       <div>
-        <p>Hi Pre-vets! My name's Brandon and I am ecstatic to be serving as your President this year. I've wanted to be a veterinarian for as long as I can remember and I've been fortunate enough to work with all sorts of animals in wildlife, exotic, emergency, and small animal medicine. As of now, I'm looking into specializing in some form of small animal medicine with some wildlife and exotics thrown into the mix. Outside of academics, I love to sing, explore new places to eat around the area, shop (you can never have too many clothes), and hike! I'm always down to hang out or chat so please feel free to reach out if you have any questions or just want to talk, whether it’s related to veterinary medicine or not! Welcome to the PVC Family!"
+        <p>Hi Pre-vets! My name's Brandon and I am ecstatic to be serving as your President this year. I've wanted to be a veterinarian for as long as I can remember and I've been fortunate enough to work with all sorts of animals in wildlife, exotic, emergency, and small animal medicine. As of now, I'm looking into specializing in some form of small animal medicine with some wildlife and exotics thrown into the mix. Outside of academics, I love to sing, explore new places to eat around the area, shop (you can never have too many clothes), and hike! I'm always down to hang out or chat so please feel free to reach out if you have any questions or just want to talk, whether it’s related to veterinary medicine or not! Welcome to the PVC Family!
         </p>
       </div>
     )
@@ -23,8 +23,7 @@ const officersContent = [
     url: "https://sites.google.com/site/calprevetclub/_/rsrc/1508206545076/about-us/officers/image.png?height=320&width=240",
     bio: (
       <div>
-        <p>Hi my name is Divya! I'm currently a senior MCB/IB major and am very excited to be your VP of Internal Affairs :) I am super passionate about veterinary medicine as I've wanted to become one since I was in elementary school. My parents were not so appreciative of my career choice and so I have spent practically my whole life trying to convince them that this is the job for me! I am not too sure about whether I want to specialize or not but I'm quite sure I want to go into small animal medicine. Besides studying, I like to spend my time baking and going out to eat thai food! Thai is by far my favorite cuisine in Berkeley, but in general if its vegetarian I'm willing to try it ;) If you ever need a buddy to get some food with, I am your gal! Can't wait to meet you all and get to know you all this year!
-        </p>
+        <p>Hi my name is Divya! I'm currently a senior MCB/IB major and am very excited to be your VP of Internal Affairs :) I am super passionate about veterinary medicine as I've wanted to become one since I was in elementary school. My parents were not so appreciative of my career choice and so I have spent practically my whole life trying to convince them that this is the job for me! I am not too sure about whether I want to specialize or not but I'm quite sure I want to go into small animal medicine. Besides studying, I like to spend my time baking and going out to eat thai food! Thai is by far my favorite cuisine in Berkeley, but in general if its vegetarian I'm willing to try it ;) If you ever need a buddy to get some food with, I am your gal! Can't wait to meet you all and get to know you all this year!</p>
       </div>
     )
   },{
