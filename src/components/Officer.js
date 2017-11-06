@@ -6,7 +6,7 @@ const squareUrl = "https://lh5.googleusercontent.com/l-0qqsMGKxtf81LgEdJBCvP3RWx
 class Officer extends Component {
   render() {
     return (
-      <div className={"officer " + (this.state.expanded ? "officer--expanded" : "")}>
+      <div className="officer">
         <div className={"officer__img-container officer__img-container--" + this.props.ordering} ref="imgContainer">
           <img src={squareUrl} alt="" />
         </div>
