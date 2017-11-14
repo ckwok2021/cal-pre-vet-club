@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./text.css";
+import "./styles/text.css";
 
 class Par extends Component {
   render() {

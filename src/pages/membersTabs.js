@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
-import membersTab from "./pages/membersTabs.js";
-import './App.css';
-import Tabs from "./Tabs.js";
-import content from "./components/content.js";
+import Tabs from "../Tabs.js";
+import logo from '../logo.svg';
+import Search from '../search.js';
+import content from "../components/content.js";
 
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <membersTab> </membersTab>
-//     );
-//   }
-// }
-
-class App extends Component {
+class membersTab extends Component {
   constructor(props) {
     super(props);
     this.state = {active: 'aTab'}
@@ -35,4 +27,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default membersTab;
