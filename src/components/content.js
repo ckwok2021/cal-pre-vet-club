@@ -17,10 +17,9 @@ import "../styles/table.css";
 
 const content = {
   aTab: <div>
-          <Title name = 'REQUIRED COURSES'>
-          </Title>
-          <Par
-            content = 'You’re at Cal and you want to go to vet school,
+          <Title name = 'REQUIRED COURSES' />
+          <p>
+            You’re at Cal and you want to go to vet school,
             so what do you do?  You obviously have a university full
             of courses to help you on your journey, but which courses
             should you take and when should you take them?
@@ -30,104 +29,77 @@ const content = {
             getting accepted into a vet school. Each school has
             different prerequisite courses, and they can change from
             year to year, so you should always check with your specific
-            school. Having said that, here are the courses:'>
-            </Par>
-            <Title name = 'THE BASICS'>
-            </Title>
-            <ReactTable
-              data={coursedata}
-              columns={coursecolumns}
-              className="table"
-              minRows={14}
-            />
-            <Title name = 'UPPER DIVISIONS'>
-            </Title>
-            <Par
-              content = 'Biochemistry(you only need one)!'>
-              </Par>
-            <Par
-              content = '** NOTE: CHEM 135 does not meet the
+            school. Having said that, here are the courses:
+          </p>
+          <Title name = 'THE BASICS' />
+          <ReactTable
+            data={coursedata}
+            columns={coursecolumns}
+            className="table"
+            minRows={14}
+          />
+          <Title name = 'UPPER DIVISIONS' />
+          <p>Biochemistry(you only need one)!</p>
+          <p>** NOTE: CHEM 135 does not meet the
               Biochemistry requirement for UC Davis; thus,
-              it is not included here **'>
-              </Par>
-            <ReactTable
-              data={coursedata2}
-              columns={coursecolumns2}
-              className="table"
-              minRows={2}
-            />
-            <Par
-              content = 'Genetics (you only need one!)'>
-              </Par>
-            <Par
-              content = '** NOTE: IB 141 does not meet the Genetics requirement for UC Davis; thus, it is not included here **'>
-              </Par>
-            <ReactTable
-              data={coursedata3}
-              columns={coursecolumns}
-              className="table"
-              minRows={2}
-            />
-            <Par
-              content = 'Physiology (you only need one!)'>
-              </Par>
-            <Par
-              content = '** NOTE: IB 132 does not meet the Physiology requirement for UC Davis; thus, it is not included here **'>
-              </Par>
-              <ReactTable
-                data={coursedata4}
-                columns={coursecolumns}
-                className="table"
-                minRows={2}
-              />
-            <Par
-              content = 'Microbiology (you only need one lecture and laboratory combination!)'>
-              </Par>
-            <Par
-              content = '** NOTE: not required for UC Davis **'>
-              </Par>
-              <ReactTable
-                data={coursedata5}
-                columns={coursecolumns}
-                className="table"
-                minRows={2}
-              />
-            <Title name = 'OTHER'>
-            </Title>
-            <Par
-              content = 'Almost every vet school requires the above requirements along with some random assortment of "other" classes.'>
-              </Par>
-            <Par
-              content = 'Most "other" classes include: STATISTICS (STATS2, STATS20, PUBLIC HEALTH 142A);
-              ENGLISH (R1A and R1B courses, English, Rhetoric, and Literature courses should fulfill this);
-              PUBLIC SPEAKING (College Writing Program 10A/B); HUMANITIES.'>
-              </Par>
-            <Title name = 'FUN CLASSES'>
-            </Title>
-            <Par
-              content = 'So how about fun classes that are not prerequisites for vet school?'>
-              </Par>
-            <ReactTable
-              data={coursedata6}
-              columns={coursecolumns}
-              className="table"
-              minRows={2}
-            />
-            <Par
-              content = 'However, take heed that prerequisites, requirements, classes, and offerings are continuously changing - never static. Some useful resources are:'>
-              </Par>
-            <Par
-              content = 'And don’t be afraid to contact vet schools directly; they are very responsive to prospective applicants and encourage questions while steering you in the right direction.'>
-              </Par>
-
+              it is not included here **</p>  
+          <ReactTable
+            data={coursedata2}
+            columns={coursecolumns2}
+            className="table"
+            minRows={2}
+          />
+          <p>Genetics (you only need one!)</p>
+          <p>** NOTE: IB 141 does not meet the Genetics requirement for UC Davis; 
+          thus, it is not included here **</p>
+          <ReactTable
+            data={coursedata3}
+            columns={coursecolumns}
+            className="table"
+            minRows={2}
+          />
+          <p>Physiology (you only need one!)</p>
+          <p>** NOTE: IB 132 does not meet the Physiology requirement for UC Davis; 
+          thus, it is not included here **</p>
+          <ReactTable
+            data={coursedata4}
+            columns={coursecolumns}
+            className="table"
+            minRows={2}
+          />
+          <p>Microbiology (you only need one lecture and laboratory combination!)</p>
+          <p>** NOTE: not required for UC Davis **</p>
+          <ReactTable
+            data={coursedata5}
+            columns={coursecolumns}
+            className="table"
+            minRows={2}
+          />
+          <Title name = 'OTHER' />
+          <p>Almost every vet school requires the above requirements along with some 
+          random assortment of "other" classes.</p>
+          <p>
+            Most "other" classes include: STATISTICS (STATS2, STATS20, PUBLIC HEALTH 142A);
+            ENGLISH (R1A and R1B courses, English, Rhetoric, and Literature courses should fulfill this);
+            PUBLIC SPEAKING (College Writing Program 10A/B); HUMANITIES.
+          </p>
+          <Title name = 'FUN CLASSES' />
+          <p>So how about fun classes that are not prerequisites for vet school?</p>
+          <ReactTable
+            data={coursedata6}
+            columns={coursecolumns}
+            className="table"
+            minRows={2}
+          />
+          <p>However, take heed that prerequisites, requirements, classes, and offerings are continuously 
+          changing - never static. Some useful resources are:</p>
+          <p>And don’t be afraid to contact vet schools directly; they are very responsive to prospective 
+          applicants and encourage questions while steering you in the right direction.</p>
           </div>,
   bTab:
-          <Title name = 'PAID MEMBERS ONLY RESOURCES'>
-          </Title>,
-
+          <Title name = 'PAID MEMBERS ONLY RESOURCES' />,
   cTab: <div>
-          <Title name = 'TEST BANK'>
-          </Title>
+          <Title name = 'TEST BANK' />
         </div>,
 };
 
