@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Tabs from "../Tabs.js";
 import Title from "../title.js";
 import ReactTable from "react-table";
-import Par from "../paragraph.js";
 import 'react-table/react-table.css';
 import coursedata from "./coursedata.js";
 import coursedata5 from "./coursedata5.js";
