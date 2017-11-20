@@ -1,37 +1,29 @@
 import React, { Component } from 'react';
-import membersTab from "./pages/membersTabs.js";
 import './App.css';
-import Tabs from "./Tabs.js";
-import content from "./components/content.js";
+import Navbar from './pages/Navbar.js';
+import Home from './pages/Home.js';
+import Members from './pages/Members.js';
+import Officers from './pages/Officers.js';
+import { Switch, Route } from 'react-router-dom';
 
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <membersTab> </membersTab>
-//     );
-//   }
-// }
+const Main = () => (
+  <main>
+    <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route path='/members' component={Members}/>
+      <Route path='/officers' component={Officers}/>
+    </Switch>
+  </main>
+);
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {active: 'aTab'}
-  }
   render() {
     return (
       <div>
-        <Tabs
-          active={this.state.active}
-          onChange={active => this.setState({active})}
-        >
-          <div key="aTab">REQUIRED COURSES</div>
-          <div key="bTab">PAID MEMBERS ONLY RESOURCES</div>
-          <div key="cTab">TEST BANK</div>
-        </Tabs>
-        {content[this.state.active]}
+        <Navbar/>
+        <Main/>
       </div>
-    );
+    )
   }
 }
 

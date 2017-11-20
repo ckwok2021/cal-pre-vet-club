@@ -36,8 +36,7 @@ class Tabs extends Component {
 
   render() {
     return(
-      <div
-        className="Tabs"
+      <div className="Tabs"
         ref={el => this.root = el}
       >
 

@@ -15,7 +15,7 @@ import "../styles/table.css";
 
 
 const content = {
-  aTab: <div>
+  aTab: <div className="membersTab">
           <Title name = 'REQUIRED COURSES' />
           <p>
             You’re at Cal and you want to go to vet school,
@@ -96,8 +96,10 @@ const content = {
           applicants and encourage questions while steering you in the right direction.</p>
           </div>,
   bTab:
-          <Title name = 'PAID MEMBERS ONLY RESOURCES' />,
-  cTab: <div>
+        <div className="membersTab">
+          <Title name = 'PAID MEMBERS ONLY RESOURCES' />
+        </div>,
+  cTab: <div className="membersTab">
           <Title name = 'TEST BANK' />
         </div>,
 };
