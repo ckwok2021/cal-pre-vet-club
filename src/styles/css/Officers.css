@@ -22,11 +22,16 @@
         font-size: 1.2em;
         text-transform: uppercase;
         margin: 0; }
+        .officers .officer .officer__body-container .body .body__title .body__name {
+          font-weight: bold; }
+        .officers .officer .officer__body-container .body .body__title .body__position {
+          font-style: italic; }
       .officers .officer .officer__body-container .body .body__sub-title {
         margin-top: 10px;
         margin-bottom: 25px;
-        color: #a8a8a8;
-        text-transform: uppercase; }
+        color: #a8a8a8; }
+        .officers .officer .officer__body-container .body .body__sub-title .body__year {
+          text-transform: uppercase; }
       .officers .officer .officer__body-container .body .body__text p {
         line-height: 24px; }
   @media screen and (max-width: 530px) {

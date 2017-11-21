@@ -37,13 +37,24 @@ $mobile-break: 768px;
           font-size: 1.2em;
           text-transform: uppercase;
           margin: 0;
+
+          .body__name {
+            font-weight: bold;
+          }
+
+          .body__position {
+            font-style: italic;
+          }
         }
 
         .body__sub-title {
           margin-top: 10px;
           margin-bottom: 25px;
           color: #a8a8a8;
-          text-transform: uppercase;
+
+          .body__year {
+            text-transform: uppercase;
+          }
         }
 
         .body__text {
