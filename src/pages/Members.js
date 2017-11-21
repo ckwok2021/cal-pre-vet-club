@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import Tabs from "../Tabs.js";
-import logo from '../logo.svg';
-import Search from '../search.js';
 import content from "../components/content.js";
 
-
-class membersTab extends Component {
+class Members extends Component {
   constructor(props) {
     super(props);
     this.state = {active: 'aTab'}
@@ -27,4 +24,6 @@ class membersTab extends Component {
   }
 }
 
-export default membersTab;
+export default Members;
+
+
