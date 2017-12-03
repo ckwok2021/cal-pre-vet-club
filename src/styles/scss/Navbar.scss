@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600,700" rel="stylesheet');
+
+$dark-grey: #1D1D1D;
+
+.navbar {
+  width: 100%;
+  height: 50px;
+
+  img {
+    width: 50px;
+    margin-top: -10px;
+  }
+
+  ul {
+    list-style: none;
+    text-align: right;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin: 20px 0;
+
+    li {
+      display: inline-block;
+      margin-right: 25px;
+      a {
+        text-decoration: none;
+        color: $dark-grey;
+        font-size: 14px;
+      }
+    }
+    li:first-child {
+      position: absolute;
+      left: 25px;
+    }
+  }  
+}

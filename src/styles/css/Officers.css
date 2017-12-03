@@ -1,39 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600,700" rel="stylesheet');
 .officers {
-  padding: 0 50px; }
+  font-family: 'Open Sans'; }
   .officers p {
     font-size: 0.9em; }
   .officers h2 {
     text-align: center; }
-  .officers .officer {
-    box-sizing: border-box;
-    width: 100%;
-    margin-bottom: 40px; }
-    .officers .officer:last-child {
-      margin: 0; }
-    .officers .officer .officer__img-container {
+  .officers .officers__header {
+    position: relative; }
+    .officers .officers__header .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background: black;
+      opacity: 0.25; }
+    .officers .officers__header img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      object-position: 50% 10%;
+      display: block; }
+    .officers .officers__header h2 {
+      position: absolute;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+  .officers .officers__profiles {
+    padding: 25px 60px; }
+    .officers .officers__profiles .officer {
       box-sizing: border-box;
-      padding: 20px; }
-      .officers .officer .officer__img-container img {
-        width: 100%; }
-    .officers .officer .officer__body-container {
-      box-sizing: border-box;
-      padding: 20px; }
-      .officers .officer .officer__body-container .body .body__title {
-        font-size: 1.2em;
-        text-transform: uppercase;
+      width: 100%;
+      margin-bottom: 40px; }
+      .officers .officers__profiles .officer:last-child {
         margin: 0; }
-        .officers .officer .officer__body-container .body .body__title .body__name {
-          font-weight: bold; }
-        .officers .officer .officer__body-container .body .body__title .body__position {
-          font-style: italic; }
-      .officers .officer .officer__body-container .body .body__sub-title {
-        margin-top: 10px;
-        margin-bottom: 25px;
-        color: #a8a8a8; }
-        .officers .officer .officer__body-container .body .body__sub-title .body__year {
-          text-transform: uppercase; }
-      .officers .officer .officer__body-container .body .body__text p {
-        line-height: 24px; }
+      .officers .officers__profiles .officer .officer__img-container {
+        box-sizing: border-box;
+        padding: 20px; }
+        .officers .officers__profiles .officer .officer__img-container img {
+          width: 100%; }
+      .officers .officers__profiles .officer .officer__body-container {
+        box-sizing: border-box;
+        padding: 20px; }
+        .officers .officers__profiles .officer .officer__body-container .body .body__title {
+          font-size: 1.2em;
+          text-transform: uppercase;
+          margin: 0; }
+          .officers .officers__profiles .officer .officer__body-container .body .body__title .body__name {
+            font-weight: bold; }
+          .officers .officers__profiles .officer .officer__body-container .body .body__title .body__position {
+            font-style: italic; }
+        .officers .officers__profiles .officer .officer__body-container .body .body__sub-title {
+          margin-top: 10px;
+          margin-bottom: 25px;
+          color: #a8a8a8; }
+          .officers .officers__profiles .officer .officer__body-container .body .body__sub-title .body__year {
+            text-transform: uppercase; }
+        .officers .officers__profiles .officer .officer__body-container .body .body__text p {
+          line-height: 24px; }
   @media screen and (max-width: 530px) {
     .officers .officer {
       margin-bottom: 10px; }

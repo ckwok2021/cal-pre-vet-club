@@ -33,13 +33,6 @@ class Carousel extends Component {
     return (
       <div className="carousel-container">
         <div className="carousel">
-          <a href="#"
-             className="carousel__arrow carousel__arrow--left"
-             onClick={e => this.goToPrevSlide(e)}
-          >
-            <span className="fa fa-angle-left fa-3x" />
-          </a>
-
           <ul className="carousel__slides">
             {this.props.slides.map((slide, index) =>
               <li
@@ -54,14 +47,6 @@ class Carousel extends Component {
               </li>
             )}
           </ul>
-
-          <a href="#"
-             className="carousel__arrow carousel__arrow--right"
-             onClick={e => this.goToNextSlide(e)}
-          >
-            <span className="fa fa-angle-right fa-3x" />
-          </a>
-
           <ul className="carousel__indicators">
             {this.props.slides.map((slide, index) =>
               <li key={index}>
@@ -83,10 +68,10 @@ class Carousel extends Component {
 }
 
 Carousel.defaultProps = {
-  slides: ["https://masonchanscott.files.wordpress.com/2017/01/nye_nyc-25.jpg",
-           "https://masonchanscott.files.wordpress.com/2017/01/nye_nyc-20.jpg",
-           "https://masonchanscott.files.wordpress.com/2017/01/nye_nyc-34.jpg",
-           "https://masonchanscott.files.wordpress.com/2017/01/nye_nyc-45.jpg"]
+  slides: ["https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+           "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+           "https://images.unsplash.com/uploads/14135798609283698b7f3/a1364128?auto=format&fit=crop&w=1489&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+           "https://images.unsplash.com/photo-1449087989455-465ae815dbf2?auto=format&fit=crop&w=1347&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"]
 }
 
 export default Carousel;

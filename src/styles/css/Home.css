@@ -1,12 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600,700" rel="stylesheet');
 .home-container {
-  font-family: helvetica; }
+  font-family: 'Open Sans'; }
   .home-container h2 {
-    text-align: center; }
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .home-container h3 {
+    margin: 40px 0px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 2px; }
   .home-container .home-section {
-    padding: 0 100px; }
-    .home-container .home-section h3 {
-      text-transform: uppercase;
-      margin: 40px;
-      text-align: center; }
+    max-width: 900px;
+    margin: auto; }
     .home-container .home-section p {
       line-height: 24px; }
+  .home-container .prospective-section {
+    margin-top: 75px; }
+    .home-container .prospective-section h2:after {
+      content: "";
+      background: #56CCF2;
+      display: block;
+      height: 3px;
+      width: 200px;
+      margin: 25px auto; }
+    .home-container .prospective-section h4 {
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      letter-spacing: 2px; }

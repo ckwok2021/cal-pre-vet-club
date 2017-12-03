@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import '../styles/css/Navbar.css';
+import { Link } from 'react-router-dom';
+import logo from '../images/navbar/customlogo.jpg';
 
 class Navbar extends Component {
   render() {
     return (
-      <nav>
+      <nav className="navbar">
         <ul>
-          <div className="menu">
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/"><img src={logo}/></Link></li>
+            <li><Link to="/photos">Photos</Link></li>
             <li><Link to="/members">Members</Link></li>
             <li><Link to="/officers">Officers</Link></li>
-          </div>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     );

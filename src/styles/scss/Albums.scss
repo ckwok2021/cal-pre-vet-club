@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Open+Sans:400,600,700" rel="stylesheet');
+
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.album__grid {
+  margin: auto;
+  max-width: 1200px;
+  .grid__photo {
+    width: 33%;
+    height: 350px;
+    display: inline-block;
+    padding: 25px;
+    vertical-align: top;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      max-width: 100%;
+    }
+
+    .photo__overlay:hover {
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    .photo__overlay {
+      width: calc(100% - 50px);
+      height: calc(100% - 50px);
+      position: absolute;
+      top: 25px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1));
+    }
+
+    .label {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 200;
+      font-size: 20px;
+      color: white;
+      position: absolute;
+      bottom: 50px;
+      margin-left: 25px;
+    }
+  }
+  
+}
+
+@media (max-width: 900px) {
+  .album__grid {
+    .grid__photo {
+      width: 50%;
+    }
+  }
+}
