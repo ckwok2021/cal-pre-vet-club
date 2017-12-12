@@ -20,9 +20,19 @@ const homeContent = {
   benefitsList: [
   "Ability to secure shadowing & volunteer time slots (inactive members may be \"bumped off\")",
   "Eligibility to apply for officer positions for the next academic year (Spring semester only)",
-  "Priority seating for field trips (often limited to 10-15 students)]"
+  "Priority seating for field trips (often limited to 10-15 students)"
+  ],
+  requirementsList: [
+    "Minimum required for active membership = 6 pts",
+    "All events/activities = 1 pt** ",
+    "Members will be grouped into point tiers and awarded accordingly at the end of the year",
+    "If for some reason you aren't able to attend a social/fundraiser/meeting, you are able to satisfy 1 of the 3 categories by joining a committee!"
+  ],
+  subRequirementsList: [
+    "General meetings/workshops = 3 pts",
+    "Social = 1 pt",
+    "Fundraiser = 2 pts"
   ]
-  
 }
 
 export default homeContent;

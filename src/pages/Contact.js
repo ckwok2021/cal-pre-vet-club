@@ -14,7 +14,7 @@ class Contact extends Component {
 
     return (
       <div className="contact">
-        <h2>Contact Us</h2>
+        <div class="title">Contact Us</div>
         <div className="contact-officers">
           {officers}
         </div>

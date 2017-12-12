@@ -33,6 +33,14 @@ class Carousel extends Component {
     return (
       <div className="carousel-container">
         <div className="carousel">
+          <a href="#"
+             className="carousel__arrow carousel__arrow--left"
+             onClick={e => this.goToPrevSlide(e)}
+             style={{ display: this.props.showArrows ? 'block' : 'none'}}
+          >
+            <span className="fa fa-angle-left fa-3x" />
+          </a>
+
           <ul className="carousel__slides">
             {this.props.slides.map((slide, index) =>
               <li
@@ -47,7 +55,18 @@ class Carousel extends Component {
               </li>
             )}
           </ul>
-          <ul className="carousel__indicators">
+
+          <a href="#"
+             className="carousel__arrow carousel__arrow--right"
+             onClick={e => this.goToNextSlide(e)}
+             style={{ display: this.props.showArrows ? 'block' : 'none'}}
+          >
+            <span className="fa fa-angle-right fa-3x" />
+          </a>
+
+          <ul className="carousel__indicators"
+            style={{ display: this.props.showIndicators ? 'block' : 'none'}}
+          >
             {this.props.slides.map((slide, index) =>
               <li key={index}>
                 <a
@@ -61,6 +80,7 @@ class Carousel extends Component {
               </li>
             )}
           </ul>
+
         </div>
       </div>
     );

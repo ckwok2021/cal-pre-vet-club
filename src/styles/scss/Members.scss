@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Open+Sans:400,600,700" rel="stylesheet');
+
+.membersTab {
+  font-family: 'Open Sans';
+  .title {
+    margin: 50px;
+  }
+  .subject {
+    color: #64B5F6;
+    font-weight: 700;
+  }
+  .p-subject {
+    padding-top: 25px;
+  }
+  p {
+    text-align: justify;
+    margin-left: 140px;
+    margin-right: 140px;
+    line-height: 25px;
+  }
+
+  .ReactTable {
+    .rt-thead.-header {
+      background: #7b7b7b;
+      color: white;
+      padding: 5px 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .rt-tbody .rt-td {
+      overflow: scroll;
+      white-space: normal;
+      p {
+        margin: 0;
+        line-height: inherit;
+      }
+    }
+  }
+}

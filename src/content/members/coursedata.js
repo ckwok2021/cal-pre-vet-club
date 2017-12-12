@@ -39,7 +39,9 @@ const coursedata = [{
   course: 'PHYSICS 8A or 7A',
   offered: 'every semester',
   description: 'Physics, lab included',
-  notes: '7A is designed for Engineering and Physics majors & is more challenging than 8A',
+  notes: (
+    <p>7A is designed for Engineering and Physics majors & is more challenging than 8A</p>
+  )
 },{
   course: 'PHYSICS 8B or 7B',
   offered: 'every semester',

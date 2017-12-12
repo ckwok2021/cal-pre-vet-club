@@ -21,10 +21,14 @@ $dark-grey: #1D1D1D;
     li {
       display: inline-block;
       margin-right: 25px;
+      .active {
+          color: #64B5F6;
+        }
       a {
         text-decoration: none;
         color: $dark-grey;
         font-size: 14px;
+        
       }
     }
     li:first-child {

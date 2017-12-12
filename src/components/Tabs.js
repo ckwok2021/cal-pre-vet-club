@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import "../styles/css/Tabs.css";
 
-import "./styles/Tabs.css";
 class Tabs extends Component {
   constructor(props) {
     super(props);

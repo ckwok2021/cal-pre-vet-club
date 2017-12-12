@@ -1,6 +1,7 @@
 .carousel-container {
   text-align: center;
-  min-height: 210px; }
+  min-height: 210px;
+  padding: 25px 0; }
   .carousel-container ul {
     padding: 0;
     margin: 0;
@@ -31,9 +32,9 @@
     .carousel-container .carousel__arrow:hover {
       opacity: 0.5; }
     .carousel-container .carousel__arrow--left {
-      left: 32px; }
+      left: 5%; }
     .carousel-container .carousel__arrow--right {
-      right: 32px; }
+      right: 5%; }
   .carousel-container .carousel__indicators {
     text-align: center;
     margin-top: 15px; }

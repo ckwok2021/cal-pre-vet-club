@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Tabs from "../Tabs.js";
-import Title from "../title.js";
 import ReactTable from "react-table";
 import 'react-table/react-table.css';
+import Tabs from "../../components/Tabs.js";
 import coursedata from "./coursedata.js";
 import coursedata5 from "./coursedata5.js";
 import coursedata2 from "./coursedata2.js";
@@ -11,12 +10,13 @@ import coursedata4 from "./coursedata4.js";
 import coursedata6 from "./coursedata6.js";
 import coursecolumns from "./coursecolumn.js";
 import coursecolumns2 from "./coursecolumn2.js";
-import "../styles/table.css";
-
+import "../../styles/css/Table.css";
 
 const content = {
   aTab: <div className="membersTab">
-          <Title name = 'REQUIRED COURSES' />
+          <div className="title">
+            REQUIRED COURSES
+          </div>
           <p>
             You’re at Cal and you want to go to vet school,
             so what do you do?  You obviously have a university full
@@ -30,15 +30,19 @@ const content = {
             year to year, so you should always check with your specific
             school. Having said that, here are the courses:
           </p>
-          <Title name = 'THE BASICS' />
+          <div className="title">
+            THE BASICS
+          </div>
           <ReactTable
             data={coursedata}
             columns={coursecolumns}
             className="table"
-            minRows={14}
+            defaultPageSize={5}
           />
-          <Title name = 'UPPER DIVISIONS' />
-          <p>Biochemistry(you only need one)!</p>
+          <div className="title">
+            UPPER DIVISIONS
+          </div>
+          <p className="p-subject"><span className="subject">Biochemistry</span> (you only need one)!</p>
           <p>** NOTE: CHEM 135 does not meet the
               Biochemistry requirement for UC Davis; thus,
               it is not included here **</p>  
@@ -47,8 +51,9 @@ const content = {
             columns={coursecolumns2}
             className="table"
             minRows={2}
+            defaultPageSize={5}
           />
-          <p>Genetics (you only need one!)</p>
+          <p className="p-subject"><span className="subject">Genetics</span> (you only need one!)</p>
           <p>** NOTE: IB 141 does not meet the Genetics requirement for UC Davis; 
           thus, it is not included here **</p>
           <ReactTable
@@ -56,8 +61,9 @@ const content = {
             columns={coursecolumns}
             className="table"
             minRows={2}
+            defaultPageSize={5}
           />
-          <p>Physiology (you only need one!)</p>
+          <p className="p-subject"><span className="subject">Physiology</span> (you only need one!)</p>
           <p>** NOTE: IB 132 does not meet the Physiology requirement for UC Davis; 
           thus, it is not included here **</p>
           <ReactTable
@@ -65,16 +71,20 @@ const content = {
             columns={coursecolumns}
             className="table"
             minRows={2}
+            defaultPageSize={5}
           />
-          <p>Microbiology (you only need one lecture and laboratory combination!)</p>
+          <p className="p-subject"><span className="subject">Microbiology</span> (you only need one lecture and laboratory combination!)</p>
           <p>** NOTE: not required for UC Davis **</p>
           <ReactTable
             data={coursedata5}
             columns={coursecolumns}
             className="table"
             minRows={2}
+            defaultPageSize={5}
           />
-          <Title name = 'OTHER' />
+          <div className="title">
+            OTHER
+          </div>
           <p>Almost every vet school requires the above requirements along with some 
           random assortment of "other" classes.</p>
           <p>
@@ -82,13 +92,16 @@ const content = {
             ENGLISH (R1A and R1B courses, English, Rhetoric, and Literature courses should fulfill this);
             PUBLIC SPEAKING (College Writing Program 10A/B); HUMANITIES.
           </p>
-          <Title name = 'FUN CLASSES' />
+          <div className="title">
+            FUN CLASSES
+          </div>
           <p>So how about fun classes that are not prerequisites for vet school?</p>
           <ReactTable
             data={coursedata6}
             columns={coursecolumns}
             className="table"
             minRows={2}
+            defaultPageSize={5}
           />
           <p>However, take heed that prerequisites, requirements, classes, and offerings are continuously 
           changing - never static. Some useful resources are:</p>
@@ -97,10 +110,10 @@ const content = {
           </div>,
   bTab:
         <div className="membersTab">
-          <Title name = 'PAID MEMBERS ONLY RESOURCES' />
+          PAID MEMBERS ONLY RESOURCES
         </div>,
   cTab: <div className="membersTab">
-          <Title name = 'TEST BANK' />
+          TEST BANK
         </div>,
 };
 

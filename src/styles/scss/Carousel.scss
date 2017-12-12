@@ -1,6 +1,7 @@
 .carousel-container {
   text-align: center;
   min-height: 210px;
+  padding: 25px 0;
 
   ul {
     padding: 0;
@@ -45,11 +46,11 @@
     }
 
     &--left {
-      left: 32px;
+      left: 5%;
     }
 
     &--right {
-      right: 32px;
+      right: 5%;
     }
   }
 

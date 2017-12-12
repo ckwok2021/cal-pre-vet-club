@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/css/Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../images/navbar/customlogo.jpg';
 
 class Navbar extends Component {
@@ -8,11 +8,11 @@ class Navbar extends Component {
     return (
       <nav className="navbar">
         <ul>
-            <li><Link to="/"><img src={logo}/></Link></li>
-            <li><Link to="/photos">Photos</Link></li>
-            <li><Link to="/members">Members</Link></li>
-            <li><Link to="/officers">Officers</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><NavLink to="/"><img src={logo}/></NavLink></li>
+            <li><NavLink to="/photos" activeClassName="active">Photos</NavLink></li>
+            <li><NavLink to="/members" activeClassName="active">Members</NavLink></li>
+            <li><NavLink to="/officers" activeClassName="active">Officers</NavLink></li>
+            <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
         </ul>
       </nav>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Tabs from "../Tabs.js";
-import content from "../components/content.js";
+import Tabs from "../components/Tabs.js";
+import MembersContent from "../content/members/MembersContent.js";
+import '../styles/css/Members.css';
 
 class Members extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class Members extends Component {
           <div key="bTab">PAID MEMBERS ONLY RESOURCES</div>
           <div key="cTab">TEST BANK</div>
         </Tabs>
-        {content[this.state.active]}
+        {MembersContent[this.state.active]}
       </div>
     );
   }

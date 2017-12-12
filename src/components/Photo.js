@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Modal from './Modal.js'
+import Modal from './Modal.js';
+import { Link } from 'react-router-dom';
 
 class Photo extends Component {
   constructor(props) {
@@ -7,23 +8,18 @@ class Photo extends Component {
     this.state = { isClicked: false };
   }
 
-  toggleClicked = () => {
-    this.setState({
-      isClicked: true
-    }, () => {
-      this.props.callbackFromParent(this.state.isClicked, this.props.src);
-    });
-  } 
-
   render() {
     return (
-      <div className={this.props.className}>
-        <img src={this.props.src} />
-        <div className="photo__overlay" onClick={this.toggleClicked}></div>
-        <div className="label">
-          {this.props.name}
+        <div className={this.props.className}>
+          <Link to={"/photos/" + this.props.name} >
+            <img src={this.props.src} />
+            <div className="photo__overlay"></div>
+            <div className="label">
+              {this.props.name}
+            </div>
+          </Link>
         </div>
-      </div>
+      
     )
   }
 }

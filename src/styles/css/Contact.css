@@ -1,18 +1,25 @@
 .contact {
-  padding: 0 100px; }
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 50px; }
   .contact h2 {
     text-align: center;
     margin-bottom: 50px; }
-  .contact .contact-officer {
-    margin-bottom: 30px; }
-    .contact .contact-officer:last-child {
-      margin-bottom: 0; }
-    .contact .contact-officer p {
-      margin: 0;
-      margin-bottom: 5px;
-      margin-left: 10px; }
-      .contact .contact-officer p:first-child {
-        font-weight: bold;
-        margin-left: 0; }
-      .contact .contact-officer p:last-child {
-        margin-bottom: 0; }
+  .contact .contact-officers {
+    font-family: 'Open Sans';
+    margin: 30px 0;
+    font-size: 14px;
+    background: #f9f9f9;
+    padding: 25px 50px; }
+    .contact .contact-officers .contact-officer {
+      margin-bottom: 30px; }
+      .contact .contact-officers .contact-officer p {
+        margin: 0;
+        margin-bottom: 5px;
+        margin-left: 10px; }
+        .contact .contact-officers .contact-officer p:first-child {
+          font-weight: bold;
+          margin-left: 0; }
+        .contact .contact-officers .contact-officer p:last-child {
+          margin-bottom: 0; }
