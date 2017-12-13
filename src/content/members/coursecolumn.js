@@ -1,6 +1,6 @@
 const coursecolumns = [{
   Header: 'COURSE',
-  accessor: 'course' // String-based value accessors!
+  accessor: 'course'
 }, {
   Header: 'OFFERED',
   accessor: 'offered',

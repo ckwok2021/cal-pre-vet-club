@@ -14,7 +14,8 @@
     letter-spacing: 2px; }
   .home-container .home-section {
     max-width: 900px;
-    margin: auto; }
+    margin: auto;
+    padding: 0 50px; }
     .home-container .home-section p {
       line-height: 24px; }
   .home-container .prospective-section {

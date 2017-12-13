@@ -9,14 +9,22 @@ import coursedata3 from "./coursedata3.js";
 import coursedata4 from "./coursedata4.js";
 import coursedata6 from "./coursedata6.js";
 import coursecolumns from "./coursecolumn.js";
-import coursecolumns2 from "./coursecolumn2.js";
+import paidContent from "./PaidMembersContent.js";
+import testdata from "./testdata.js";
+import testcolumns from "./testcolumn.js";
 import "../../styles/css/Table.css";
 
+const paidMembers = paidContent.map((item) => {
+  return (
+    <div className="paid__link">
+      <a href={item.url}>{item.text}</a>
+    </div>
+  )
+});
+
+
 const content = {
-  aTab: <div className="membersTab">
-          <div className="title">
-            REQUIRED COURSES
-          </div>
+  aTab: <div className="membersTab a__membersTab">
           <p>
             You’re at Cal and you want to go to vet school,
             so what do you do?  You obviously have a university full
@@ -48,7 +56,7 @@ const content = {
               it is not included here **</p>  
           <ReactTable
             data={coursedata2}
-            columns={coursecolumns2}
+            columns={coursecolumns}
             className="table"
             minRows={2}
             defaultPageSize={5}
@@ -109,11 +117,18 @@ const content = {
           applicants and encourage questions while steering you in the right direction.</p>
           </div>,
   bTab:
-        <div className="membersTab">
-          PAID MEMBERS ONLY RESOURCES
+        <div className="membersTab b__membersTab">
+          <div className="paid__links">
+            {paidMembers}
+          </div>
         </div>,
-  cTab: <div className="membersTab">
-          TEST BANK
+  cTab: <div className="membersTab c__membersTab">
+          <ReactTable
+            data={testdata}
+            columns={testcolumns}
+            className="table"
+            defaultPageSize={5}
+          />
         </div>,
 };
 

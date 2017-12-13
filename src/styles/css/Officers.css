@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600,700" rel="stylesheet');
 .officers {
-  font-family: 'Open Sans'; }
+  font-family: 'Open Sans';
+  display: inline-block; }
   .officers p {
     font-size: 0.9em; }
   .officers h2 {

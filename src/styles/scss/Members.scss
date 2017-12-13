@@ -2,23 +2,6 @@
 
 .membersTab {
   font-family: 'Open Sans';
-  .title {
-    margin: 50px;
-  }
-  .subject {
-    color: #64B5F6;
-    font-weight: 700;
-  }
-  .p-subject {
-    padding-top: 25px;
-  }
-  p {
-    text-align: justify;
-    margin-left: 140px;
-    margin-right: 140px;
-    line-height: 25px;
-  }
-
   .ReactTable {
     .rt-thead.-header {
       background: #7b7b7b;
@@ -35,5 +18,55 @@
         line-height: inherit;
       }
     }
+  }
+}
+
+.a__membersTab {
+  max-width: 1200px;
+  margin: auto;
+
+  .title {
+    margin: 50px 0 25px 0;
+  }
+  .subject {
+    color: #64B5F6;
+    font-weight: 700;
+  }
+  .p-subject {
+    padding-top: 25px;
+  }
+  p {
+    text-align: justify;
+    margin-left: 11%;
+    margin-right: 11%;
+    line-height: 25px;
+    &:first-child {
+      margin-top: 50px;
+    }
+  }
+}
+
+.b__membersTab {
+  .paid__links{
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    a {
+      margin-bottom: 10px;
+      display: block;
+      text-decoration: none;
+      color: #64B5F6;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.c__membersTab {
+  .ReactTable {
+    margin-top: 50px;
   }
 }

@@ -50,7 +50,6 @@
   }
 }
 
-
 @media (max-width: 900px) {
   .gallery {
     .album__grid {
@@ -60,3 +59,14 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .gallery {
+    .album__grid {
+      .grid__photo {
+        width: 100%;
+      }
+    }
+  }
+}
+

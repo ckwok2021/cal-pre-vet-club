@@ -6,27 +6,26 @@
   font-family: 'Open Sans';
   font-weight: 700;
   letter-spacing: 0.5px; }
-
-.Tabs__Tab, .Tabs__Tab--active {
-  display: inline-block;
-  text-align: center;
-  padding: 1.5em;
-  margin-left: 2px;
-  margin-right: 2px;
-  padding-left: 5em;
-  padding-right: 5em;
-  background: white;
-  color: black;
-  cursor: pointer; }
-
-.Tabs__Tab:hover, .Tabs__Tab--active {
-  background: #64B5F6;
-  color: white; }
-
-.Tabs__Underline {
-  poistion: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  border-bottom: 2px solid #64B5F6;
-  opacity: 0.25; }
+  .Tabs .Tabs__Tab, .Tabs .Tabs__Tab--active {
+    display: inline-block;
+    text-align: center;
+    padding: 1.5em;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5em;
+    padding-right: 5em;
+    background: white;
+    color: black;
+    cursor: pointer; }
+  .Tabs .Tabs__Tab:hover, .Tabs .Tabs__Tab--active {
+    background: #64B5F6;
+    color: white; }
+  .Tabs .Tabs__Underline {
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #64B5F6;
+    opacity: 0.25; }
+  @media (max-width: 500px) {
+    .Tabs .Tabs__Tab, .Tabs .Tabs__Tab--active {
+      display: block; } }
