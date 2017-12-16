@@ -5,18 +5,7 @@ const testdata = [
     subject: 'Anthropology',
     class: '3AC',
     professor: 'Holston'
-  },
-  {
-    subject: 'Anthropology',
-    class: '3AC',
-    professor: 'Holston'
-  },
-  {
-    subject: 'Anthropology',
-    class: '3AC',
-    professor: 'Holston'
-  },
-
+  }
 ]
 
 export default testdata;

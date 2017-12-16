@@ -46,6 +46,9 @@ const content = {
             columns={coursecolumns}
             className="table"
             defaultPageSize={5}
+            filterable
+            defaultFilterMethod={(filter, row) =>
+              String(row[filter.id]) === filter.value}
           />
           <div className="title">
             UPPER DIVISIONS

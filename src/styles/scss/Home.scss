@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,600,700" rel="stylesheet');
-
 @mixin heading-style {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
