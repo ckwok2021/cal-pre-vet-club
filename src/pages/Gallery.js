@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Grid from '../components/Grid.js';
 import Modal from '../components/Modal.js';
+import Disclaimer from '../components/Disclaimer';
 import '../styles/css/Gallery.css';
 
 const items = [
@@ -42,6 +43,7 @@ class Gallery extends Component {
       <div className="gallery">
         <div className="title">Photo Gallery</div>
         <Grid className="album__grid" callbackFromParent={ this.callback } urls={ items } />
+        <Disclaimer />
       </div>
     )
   }

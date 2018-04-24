@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Tabs from "../components/Tabs.js";
+import Disclaimer from '../components/Disclaimer';
 import MembersContent from "../content/members/MembersContent.js";
 import '../styles/css/Members.css';
 
@@ -20,6 +21,7 @@ class Members extends Component {
           <div key="cTab">TEST BANK</div>
         </Tabs>
         {MembersContent[this.state.active]}
+        <Disclaimer />
       </div>
     );
   }

@@ -3,6 +3,8 @@
 }
 
 .gallery {
+  font-family: 'Open Sans', sans-serif;
+  
   .album__grid {
     margin: auto;
     max-width: 1200px;
@@ -35,7 +37,6 @@
       }
 
       .label {
-        font-family: 'Open Sans', sans-serif;
         font-size: 18px;
         color: white;
         position: absolute;

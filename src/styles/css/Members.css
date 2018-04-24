@@ -1,5 +1,5 @@
 .membersTab {
-  font-family: 'Open Sans'; }
+  font-family: 'Open Sans', sans-serif; }
   .membersTab .ReactTable .rt-thead.-header {
     background: #7b7b7b;
     color: white;

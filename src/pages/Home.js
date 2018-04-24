@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from '../components/Carousel';
+import Disclaimer from '../components/Disclaimer';
 import homeContent from '../content/HomeContent';
 import '../styles/css/Home.css';
 
@@ -41,7 +42,13 @@ class Home extends Component {
             {this.mapToLi(homeContent.requirementsList.slice(1))}
           </ul>
         </div>
-
+        <Disclaimer />
+        <div className="home-section ocf-logo">
+          <a href="https://www.ocf.berkeley.edu">
+            <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+              alt="Hosted by the OCF"/>
+          </a>
+        </div>
       </div>
     );
   }

@@ -1,5 +1,5 @@
 .home-container {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   padding-bottom: 50px; }
   .home-container h2 {
     text-align: center;
@@ -30,3 +30,6 @@
       font-family: 'Montserrat', sans-serif;
       text-transform: uppercase;
       letter-spacing: 2px; }
+  .home-container .ocf-logo a img {
+    margin-left: 50%;
+    transform: translateX(-50%); }

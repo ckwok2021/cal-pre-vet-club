@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/css/Contact.css';
 import contactContent from '../content/ContactContent';
+import Disclaimer from '../components/Disclaimer';
 
 class Contact extends Component {
   render() {
@@ -13,12 +14,14 @@ class Contact extends Component {
     );
 
     return (
-      <div className="contact">
-        <div class="title">Contact Us</div>
-        <div className="contact-officers">
-          {officers}
+      <div>
+        <div className="contact">
+          <div className="title">Contact Us</div>
+          <div className="contact-officers">
+            {officers}
+          </div>
         </div>
-
+        <Disclaimer />
       </div>
     );
   }
