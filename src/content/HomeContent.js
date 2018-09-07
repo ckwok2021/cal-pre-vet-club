@@ -8,7 +8,7 @@ const homeContent = {
     "informational meetings that address students' questions about academics and obtaining animal experience."
   ],
   whyPVC: "Cal PVC prides itself in being UC Berkeley's premier resource for pre-veterinary students.  Cal PVC aims to serve its members in all academic and extracurricular endeavors, and these services are unique to Cal PVC alone.  Through the club, Cal PVC members forge long-lasting relationships with local veterinarians, enjoy priority for behind-the-scenes tours of major organizations, and receive significant aid in preparing their applications for veterinary school.  Cal PVC hosts a wealth of knowledge and experiences, and we are proud to serve the UC Berkeley veterinary community.",
-  interested: "PAY $10/SEMESTER TO GAIN...",
+  interested: "PAY $15/SEMESTER or $25 for 2 SEMESTER TO GAIN...",
   interestedList: [
     "Shadowing/volunteering opportunities with veterinarians",
     "Subsidized field trips to behind-the-scenes tours of veterinary facilities",
