@@ -1,4 +1,4 @@
-3import React, { Component } from 'react';
+import React, { Component } from 'react';
 import Carousel from '../../components/Carousel';
 import Grid from '../../components/Grid.js';
 import '../../styles/css/Albums.css';
