@@ -74,4 +74,4 @@ class Merchandise extends Component {
   }
 }
 
-export default Album2017;
+export default Merchandise;

@@ -29,7 +29,7 @@ const homeContent = {
   subRequirementsList: [
     "General meetings/workshops = 3 pts",
     "Social = 1 pt",
-    "Fundraiser = 2 pts"
+    "Fundraiser/tabling = 2 pts"
   ]
 }
 
