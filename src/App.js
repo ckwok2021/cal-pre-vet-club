@@ -29,7 +29,7 @@ const Main = () => (
       <Route exact path='/photos/2014-2015' component={Album2014}/>
       <Route exact path='/photos/Merchandise' component={Merchandise}/>
     </Switch>
-  </main/>
+  </main>
 );
 
 class App extends Component {
