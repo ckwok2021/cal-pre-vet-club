@@ -75,7 +75,7 @@ const Social = [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Social/8.jpg"
 ];
 
-const UCD-SVM-Field-Trip = [
+const UCDSVMFieldTrip = [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/UCD-SVM-Field-Trip/1.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/UCD-SVM-Field-Trip/2.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/UCD-SVM-Field-Trip/3.jpg",
@@ -109,7 +109,7 @@ class Album2016 extends Component {
         <Carousel slides={Social} showArrows={true} showIndicators={false} /> 
 
         <div class="album__title">UCD SVM Field Trip</div>
-        <Carousel slides={UCD-SVM-Field-Trip} showArrows={true} showIndicators={false} /> 
+        <Carousel slides={UCDSVMFieldTrip} showArrows={true} showIndicators={false} /> 
 
         <div class="album__title">Bandaging Workshop</div>
         <Carousel slides={Workshop} showArrows={true} showIndicators={false} />  

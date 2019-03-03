@@ -9,12 +9,12 @@ const GM = [
   "../images/2018-2019/GM/3.jpg"
 ];
 
-const Menchies-Social = [
+const MenchiesSocial = [
   "../images/2018-2019/Menchies-Social/1.jpg",
   "../images/2018-2019/Menchies-Social/2.jpg"
 ];
 
-const Suture-Workshop = [
+const SutureWorkshop = [
   "../images/2018-2019/Suture-Workshop/1.jpg",
   "../images/2018-2019/Suture-Workshop/2.jpg",
   "../images/2018-2019/Suture-Workshop/3.jpg",
@@ -41,10 +41,10 @@ class Album2018 extends Component {
         <Carousel slides={GM} showArrows={true} showIndicators={false} />
 
         <div class="album__title">Mecnchies Social</div>
-        <Carousel slides={Menchies-Social} showArrows={true} showIndicators={false} /> 
+        <Carousel slides={MenchiesSocial} showArrows={true} showIndicators={false} /> 
 
         <div class="album__title">Suture Workshop</div>
-        <Carousel slides={Suture-Workshop} showArrows={true} showIndicators={false} /> 
+        <Carousel slides={SutureWorkshop} showArrows={true} showIndicators={false} /> 
       </div>
     )
   }

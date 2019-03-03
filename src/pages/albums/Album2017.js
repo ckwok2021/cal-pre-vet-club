@@ -3,7 +3,7 @@ import Carousel from '../../components/Carousel';
 import Grid from '../../components/Grid.js';
 import '../../styles/css/Albums.css';
 
-const Fundraiser-Concert = [
+const FundraiserConcert = [
   "../images/2017-2018/Fundraiser-Concert/1.jpg",
   "../images/2017-2018/Fundraiser-Concert/2.jpg",
   "../images/2017-2018/Fundraiser-Concert/3.jpg",
@@ -42,7 +42,7 @@ class Album2018 extends Component {
         <div class="title">2017 - 2018</div>
 
         <div class="album__title">Fundraiser Concert</div>
-        <Carousel slides={Fundraiser-Concert} showArrows={true} showIndicators={false} />
+        <Carousel slides={FundraiserConcert} showArrows={true} showIndicators={false} />
 
         <div class="album__title">GM</div>
         <Carousel slides={GM} showArrows={true} showIndicators={false} />
