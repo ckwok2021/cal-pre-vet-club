@@ -28,8 +28,8 @@ const Main = () => (
       <Route exact path='/photos/2015-2016' component={Album2015}/>
       <Route exact path='/photos/2014-2015' component={Album2014}/>
       <Route exact path='/photos/Merchandise' component={Merchandise}/>
-    <Switch/>
-  <main/>
+    <Switch>
+  </main>
 );
 
 class App extends Component {
@@ -38,7 +38,7 @@ class App extends Component {
       <div>
         <Navbar/>
         <Main/>
-      <div/>
+      </div>
     )
   }
 }
