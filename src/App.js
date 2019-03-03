@@ -27,9 +27,9 @@ const Main = () => (
       <Route exact path='/photos/2016-2017' component={Album2016}/>
       <Route exact path='/photos/2015-2016' component={Album2015}/>
       <Route exact path='/photos/2014-2015' component={Album2014}/>
-      <Route exact path='/photos/Merchandise' component={Merchandise}>
-    </Switch>
-  </main>
+      <Route exact path='/photos/Merchandise' component={Merchandise}/>
+    <Switch/>
+  <main/>
 );
 
 class App extends Component {
