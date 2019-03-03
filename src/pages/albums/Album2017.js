@@ -31,7 +31,7 @@ const Officers = [
 ];
 
 
-class Album2018 extends Component {
+class Album2017 extends Component {
   constructor(props) {
       super(props);
   }
