@@ -48,7 +48,7 @@ const Aquarium = [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Aquarium/8.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Aquarium/9.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Aquarium/10.jpg",
-  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Aquarium/11.jpg",
+  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Aquarium/11.jpg"
 ];
 
 const Other = [
@@ -61,7 +61,7 @@ const Other = [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Other/7.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Other/8.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Other/9.jpg",
-  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Other/10.jpg",
+  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/2016-2017/Other/10.jpg"
 ];
 
 const Social = [

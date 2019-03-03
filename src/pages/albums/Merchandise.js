@@ -5,22 +5,22 @@ import '../../styles/css/Albums.css';
 
 const Black-Baseball= [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Baseball 3-4 Sleeve - $20/1.jpg",
-  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Baseball 3-4 Sleeve - $20/2.jpg",
+  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Baseball 3-4 Sleeve - $20/2.jpg"
 ];
 
 const Black-Long-Sleeve = [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Long Sleeve - $18/1.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Long Sleeve - $18/2.jpg",
-  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Long Sleeve - $18/3.jpg",
+  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Black Long Sleeve - $18/3.jpg"
 ];
 
 const Gray-Sweats = [
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Gray Sweats - $20/1.jpg",
-  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Gray Sweats - $20/2.jpg",
+  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Gray Sweats - $20/2.jpg"
 ];
 
 const Navy-Cap = [
-  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/P/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Navy Embroidered Cap $20/1.jpg"
+  "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/P/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Navy Embroidered Cap $20/1.jpg",
   "/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/P/Users/kwokcasey17/Desktop/cal-pre-vet-club/src/images/Merchandise/Navy Embroidered Cap $20/2.jpg"
 ];
 

@@ -4,25 +4,25 @@ import Grid from '../../components/Grid.js';
 import '../../styles/css/Albums.css';
 
 const Fundraiser-Concert = [
-  "../images/2017-2018/Fundraiser-Concert/1.jpg"
-  "../images/2017-2018/Fundraiser-Concert/2.jpg"
-  "../images/2017-2018/Fundraiser-Concert/3.jpg"
-  "../images/2017-2018/Fundraiser-Concert/4.jpg"
-  "../images/2017-2018/Fundraiser-Concert/5.jpg"
-  "../images/2017-2018/Fundraiser-Concert/6.jpg"
-  "../images/2017-2018/Fundraiser-Concert/7.jpg"
-  "../images/2017-2018/Fundraiser-Concert/8.jpg"
+  "../images/2017-2018/Fundraiser-Concert/1.jpg",
+  "../images/2017-2018/Fundraiser-Concert/2.jpg",
+  "../images/2017-2018/Fundraiser-Concert/3.jpg",
+  "../images/2017-2018/Fundraiser-Concert/4.jpg",
+  "../images/2017-2018/Fundraiser-Concert/5.jpg",
+  "../images/2017-2018/Fundraiser-Concert/6.jpg",
+  "../images/2017-2018/Fundraiser-Concert/7.jpg",
+  "../images/2017-2018/Fundraiser-Concert/8.jpg",
   "../images/2017-2018/Fundraiser-Concert/9.jpg"
 ];
 
 const GM = [
-  "../images/2017-2018/GM/1.jpg"
-  "../images/2017-2018/GM/2.jpg"
-  "../images/2017-2018/GM/3.jpg"
-  "../images/2017-2018/GM/4.jpg"
-  "../images/2017-2018/GM/5.jpg"
-  "../images/2017-2018/GM/6.jpg"
-  "../images/2017-2018/GM/7.jpg"
+  "../images/2017-2018/GM/1.jpg",
+  "../images/2017-2018/GM/2.jpg",
+  "../images/2017-2018/GM/3.jpg",
+  "../images/2017-2018/GM/4.jpg",
+  "../images/2017-2018/GM/5.jpg",
+  "../images/2017-2018/GM/6.jpg",
+  "../images/2017-2018/GM/7.jpg",
   "../images/2017-2018/GM/8.jpg"
 ];
 
