@@ -103,7 +103,7 @@ class Album2016 extends Component {
         <Carousel slides={GM} showArrows={true} showIndicators={false} /> 
 
         <div class="album__title">Other</div>
-        <Carousel slides={Others} showArrows={true} showIndicators={false} />
+        <Carousel slides={Other} showArrows={true} showIndicators={false} />
 
         <div class="album__title">Social</div>
         <Carousel slides={Social} showArrows={true} showIndicators={false} /> 
