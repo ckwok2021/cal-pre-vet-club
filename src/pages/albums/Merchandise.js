@@ -30,7 +30,7 @@ const PreHealthshirt= [
 ];
 
 const PVCsticker= [
-  "/../images/Merchandise/PVC Laptop Sticker - $3/1.jpg"
+  "../images/Merchandise/PVC Laptop Sticker - $3/1.jpg"
 ];
 
 const PVCmug= [

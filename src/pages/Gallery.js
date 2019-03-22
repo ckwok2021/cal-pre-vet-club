@@ -7,10 +7,10 @@ import '../styles/css/Gallery.css';
 const items = [
   { name: 'Merchandise', url: require("../images/Merchandise/PVC Mug (white) - $7/2.jpg")},
   { name: '2018-2019', url: require("../images/2018-2019/Suture-Workshop/4.jpg")},
-  { name: '2017-2018', url: 'http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Samoyed-2.jpg'},
-  { name: '2016-2017', url: 'http://cdn.akc.org/Marketplace/Breeds/Pembroke_Welsh_Corgi_SERP.jpg' },
-  { name: '2015-2016', url: 'https://i.ytimg.com/vi/wRx3Uvcktm8/maxresdefault.jpg' }, 
-  { name: '2014-2015', url: 'https://www.thelabradorsite.com/wp-content/uploads/2015/07/yellow-labrador-puppy-garden.jpg' }, 
+  { name: '2017-2018', url: require("../images/2017-2018/GM/6.jpg")},
+  { name: '2016-2017', url: require("../images/2016-2017/Other/1.jpg")},
+  { name: '2015-2016', url: require("../images/2015-2016/Fundraiser/1.jpg")}, 
+  { name: '2014-2015', url: require("../images/2014-2015/Social/6.jpg")}, 
 ];
 
 
