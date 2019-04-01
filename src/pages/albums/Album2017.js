@@ -47,7 +47,7 @@ class Album2017 extends Component {
         <div class="album__title">GM</div>
         <Carousel slides={GM} showArrows={true} showIndicators={false} />
 
-        <div class="album__title">Offiers</div>
+        <div class="album__title">Officers</div>
         <Carousel slides={Officers} showArrows={true} showIndicators={false} /> 
       </div>
     )

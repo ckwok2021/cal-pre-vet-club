@@ -40,7 +40,7 @@ class Album2018 extends Component {
         <div class="album__title">GM</div>
         <Carousel slides={GM} showArrows={true} showIndicators={false} />
 
-        <div class="album__title">Mecnchies Social</div>
+        <div class="album__title">Menchies Social</div>
         <Carousel slides={MenchiesSocial} showArrows={true} showIndicators={false} /> 
 
         <div class="album__title">Suture Workshop</div>
