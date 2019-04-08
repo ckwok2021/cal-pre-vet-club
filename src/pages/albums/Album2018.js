@@ -4,26 +4,26 @@ import Grid from '../../components/Grid.js';
 import '../../styles/css/Albums.css';
 
 const GM = [
-  "../images/2018-2019/GM/1.jpg",
-  "../images/2018-2019/GM/2.jpg",
-  "../images/2018-2019/GM/3.jpg"
+  "../../images/2018-2019/GM/1.jpg",
+  "../../images/2018-2019/GM/2.jpg",
+  "../../images/2018-2019/GM/3.jpg"
 ];
 
 const MenchiesSocial = [
-  "../images/2018-2019/Menchies-Social/1.jpg",
-  "../images/2018-2019/Menchies-Social/2.jpg"
+  "../../images/2018-2019/Menchies-Social/1.jpg",
+  "../../images/2018-2019/Menchies-Social/2.jpg"
 ];
 
 const SutureWorkshop = [
-  "../images/2018-2019/Suture-Workshop/1.jpg",
-  "../images/2018-2019/Suture-Workshop/2.jpg",
-  "../images/2018-2019/Suture-Workshop/3.jpg",
-  "../images/2018-2019/Suture-Workshop/4.jpg",
-  "../images/2018-2019/Suture-Workshop/5.jpg",
-  "../images/2018-2019/Suture-Workshop/6.jpg",
-  "../images/2018-2019/Suture-Workshop/7.jpg",
-  "../images/2018-2019/Suture-Workshop/8.jpg",
-  "../images/2018-2019/Suture-Workshop/9.jpg"
+  "../../images/2018-2019/Suture-Workshop/1.jpg",
+  "../../images/2018-2019/Suture-Workshop/2.jpg",
+  "../../images/2018-2019/Suture-Workshop/3.jpg",
+  "../../images/2018-2019/Suture-Workshop/4.jpg",
+  "../../images/2018-2019/Suture-Workshop/5.jpg",
+  "../../images/2018-2019/Suture-Workshop/6.jpg",
+  "../../images/2018-2019/Suture-Workshop/7.jpg",
+  "../../images/2018-2019/Suture-Workshop/8.jpg",
+  "../../images/2018-2019/Suture-Workshop/9.jpg"
 ];
 
 

@@ -4,38 +4,38 @@ import Grid from '../../components/Grid.js';
 import '../../styles/css/Albums.css';
 
 const BlackBaseball= [
-  "../images/Merchandise/Black Baseball 3-4 Sleeve - $20/1.jpg",
-  "../images/Merchandise/Black Baseball 3-4 Sleeve - $20/2.jpg"
+  "../../images/Merchandise/Black Baseball 3-4 Sleeve - $20/1.jpg",
+  "../../images/Merchandise/Black Baseball 3-4 Sleeve - $20/2.jpg"
 ];
 
 const BlackLongSleeve = [
-  "../images/Merchandise/Black Long Sleeve - $18/1.jpg",
-  "../images/Merchandise/Black Long Sleeve - $18/2.jpg",
-  "../images/Merchandise/Black Long Sleeve - $18/3.jpg"
+  "../../images/Merchandise/Black Long Sleeve - $18/1.jpg",
+  "../../images/Merchandise/Black Long Sleeve - $18/2.jpg",
+  "../../images/Merchandise/Black Long Sleeve - $18/3.jpg"
 ];
 
 const GraySweats = [
-  "../images/Merchandise/Gray Sweats - $20/1.jpg",
-  "../images/Merchandise/Gray Sweats - $20/2.jpg"
+  "../../images/Merchandise/Gray Sweats - $20/1.jpg",
+  "../../images/Merchandise/Gray Sweats - $20/2.jpg"
 ];
 
 const NavyCap = [
-  "../images/Merchandise/Navy Embroidered Cap $20/1.jpg",
-  "../images/Merchandise/Navy Embroidered Cap $20/2.jpg"
+  "../../images/Merchandise/Navy Embroidered Cap $20/1.jpg",
+  "../../images/Merchandise/Navy Embroidered Cap $20/2.jpg"
 ];
 
 const PreHealthshirt= [
-  "../images/Merchandise/Pre-Health Society T-shirt - free/1.jpg",
-  "../images/Merchandise/Pre-Health Society T-shirt - free/2.jpg"
+  "../../images/Merchandise/Pre-Health Society T-shirt - free/1.jpg",
+  "../../images/Merchandise/Pre-Health Society T-shirt - free/2.jpg"
 ];
 
 const PVCsticker= [
-  "../images/Merchandise/PVC Laptop Sticker - $3/1.jpg"
+  "../../images/Merchandise/PVC Laptop Sticker - $3/1.jpg"
 ];
 
 const PVCmug= [
-  "../images/Merchandise/PVC Mug (white) - $7/1.jpg",
-  "../images/Merchandise/PVC Mug (white) - $7/2.jpg"
+  "../../images/Merchandise/PVC Mug (white) - $7/1.jpg",
+  "../../images/Merchandise/PVC Mug (white) - $7/2.jpg"
 ];
 
 

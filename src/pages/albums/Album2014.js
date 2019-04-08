@@ -4,9 +4,9 @@ import Grid from '../../components/Grid.js';
 import '../../styles/css/Albums.css';
 
 const Fundraisers = [
-  "../images/2014-2015/Fundraisers/1.jpg",
-  "../images/2014-2015/Fundraisers/2.jpg",
-  "../images/2014-2015/Fundraisers/3.jpg"
+  "../../images/2014-2015/Fundraisers/1.jpg",
+  "../../images/2014-2015/Fundraisers/2.jpg",
+  "../../images/2014-2015/Fundraisers/3.jpg"
 ];
 
 const GM = [
@@ -14,12 +14,12 @@ const GM = [
 ];
 
 const Social = [
-  "../images/2014-2015/Social/1.jpg",
-  "../images/2014-2015/Social/2.jpg",
-  "../images/2014-2015/Social/3.jpg",
-  "../images/2014-2015/Social/4.jpg",
-  "../images/2014-2015/Social/5.jpg",
-  "../images/2014-2015/Social/6.jpg"
+  "../../images/2014-2015/Social/1.jpg",
+  "../../images/2014-2015/Social/2.jpg",
+  "../../images/2014-2015/Social/3.jpg",
+  "../../images/2014-2015/Social/4.jpg",
+  "../../images/2014-2015/Social/5.jpg",
+  "../../images/2014-2015/Social/6.jpg"
 ];
 
 
